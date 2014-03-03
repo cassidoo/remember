@@ -7,4 +7,5 @@ function capture()
 function setup()
 {
     document.getElementById("content").style.height = screen.availHeight + "px";
+    document.getElementById("content").innerHTML = decodeURI(location.hash.substring(1));
 }
