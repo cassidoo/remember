@@ -10,6 +10,7 @@ html, body, .content
 	font-family: Helvetica, Arial, sans-serif;
 	margin: 40px;
 	font-size: 1.5em;
+	font-weight: bold;
 }
 
 button
@@ -24,5 +25,5 @@ button
 	font-size: 1em;
 	font-weight: bold;
 	height: 40px;
-	width: 150px;
+	min-width: 150px;
 }

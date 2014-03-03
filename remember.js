@@ -11,7 +11,7 @@ function setup()
 
     if(decodeURI(location.hash.substring(1)) === "")
     {
-        document.getElementById("content").innerHTML = "<div id='intro'><h1>welcome to remember. <br> type or paste anything, and share the url with friends.</h1> <button onclick='destroy()'>Got it.</button></div>";
+        document.getElementById("content").innerHTML = "<div id='intro'><h1>welcome to remember. <br> type or paste anything, and share the url with friends.</h1> <button onclick='destroy()'>Got it.</button> or <button onclick='github()'>Check this out on GitHub.</button></div>";
     }
     else
     {
@@ -24,3 +24,7 @@ function destroy()
     document.getElementById("content").removeChild(document.getElementById("intro"));
 }
 
+function github()
+{
+    location.href="https://github.com/cassidoo/remember";
+}
