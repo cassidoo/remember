@@ -1,8 +1,6 @@
 remember
 ========
 
-A hashing experiment.
+Type or paste anything on the pagge, from text to images, even non-Latin characters, and share the URL with friends.
 
-I don't know if it'll work. 
-
-But we will try.
+Great for sharing quick instructions, storyboards, addresses, and more.
